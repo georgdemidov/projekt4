@@ -1,0 +1,203 @@
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top:10%;
+    border: 5px solid #555;
+    width: 40%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    background-color: black;
+    height: 100vh;
+    word-wrap: break-word;
+}
+
+.column2 {
+    margin-left: 5%;
+    float: left;
+    width: 50%;
+}
+
+.column1 h2 {
+    color: white;
+}
+
+.column1 li {
+    color: white;
+}
+
+h2 {
+    font-size: 300%;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 200%;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -1%;
+}
+
+h3.tiitel {
+    font-size: 200%;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -2%;
+    font-weight: lighter;
+}
+
+h2.contact {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20%;
+}
+
+h2.location {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+ul.esimene {
+    margin-left: 15%;
+}
+
+ul.teine {
+    margin-left: -5%;
+}
+
+li.first {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/location.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+
+li.second {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/phone.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+
+li.third {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/mail.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+
+li.twilio {
+    font-size: 175%;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/twilio.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+
+li.tartu {
+    font-size: 175%;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/tartu.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+li.ee{
+    font-size: 175%;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/eesti.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+ul.üks {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -3%;
+}
+
+ul.kaks {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -3%;
+}
+
+ul.kolm {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -3%;
+}
+
+li.tik{
+    font-size: 175%;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/tik.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+    margin-top: -5%;
+}
+
+li.lille{
+    font-size: 175%;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+	list-style: none;
+	background-image: url("/images/lill.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+    margin-top: -5%;
+}
+
+ul.haridus {
+    margin-left: -5%;
+}
