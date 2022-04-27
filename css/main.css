@@ -1,4 +1,4 @@
-img {
+img.mina {
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -7,6 +7,67 @@ img {
     width: 40%;
 }
 
+img.loc {
+	position: left center;
+	width: 10%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.phone {
+    position: left center;
+	width: 10%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.mail {
+    position: left center;
+	width: 10%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.twilio {
+    position: left center;
+	width: 5%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.tartu{
+    position: left center;
+	width: 7%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.ee {
+    position: left center;
+	width: 7%;
+    margin-right: 5%;
+    margin-left: -15%;
+}
+
+img.tartu2 {
+    position: left center;
+	width: 7%;
+    margin-left: -3%;
+}
+
+img.tik {
+    position: left center;
+	width: 7%;
+    margin-left: -3%;
+}
+
+img.lille {
+    position: left center;
+	width: 7%;
+    margin-left: -3%;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -14,10 +75,10 @@ body {
 
 .column1 {
     float: left;
-    width: 30%;
+    width: 35%;
     background-color: black;
-    height: 100vh;
-    word-wrap: break-word;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .column2 {
@@ -41,10 +102,23 @@ h2 {
 }
 
 h3 {
-    font-size: 200%;
-    color: #555;
+    font-size: 150%;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: -1%;
+}
+
+h3.haridus {
+    margin-left: 10%;
+}
+
+h4 {
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10%;
+    text-align: center;
 }
 
 h3.tiitel {
@@ -61,14 +135,6 @@ h2.contact {
     margin-left: 20%;
 }
 
-h2.location {
-    font-size: 150%;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 10%;
-    position: absolute;
-    bottom: 0;
-}
-
 ul.esimene {
     margin-left: 15%;
 }
@@ -83,10 +149,6 @@ li.first {
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/location.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 30px;
 }
 
 li.second {
@@ -95,10 +157,6 @@ li.second {
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/phone.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 30px;
 }
 
 li.third {
@@ -107,10 +165,6 @@ li.third {
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/mail.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 30px;
 }
 
 li.twilio {
@@ -120,10 +174,6 @@ li.twilio {
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/twilio.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 30px;
 }
 
 li.tartu {
@@ -133,10 +183,16 @@ li.tartu {
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/tartu.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px;
+}
+
+li.tartu2 {
+    font-size: 120%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	padding: 4% 5% 5% 10%;
+    margin-top: -5%;
+	list-style: none;
 }
 
 li.ee{
@@ -146,10 +202,6 @@ li.ee{
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
 	list-style: none;
-	background-image: url("/images/eesti.jpg");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px;
 }
 
 ul.üks {
@@ -171,31 +223,23 @@ ul.kolm {
 }
 
 li.tik{
-    font-size: 175%;
-    color: #555;
+    font-size: 120%;
+    color: white;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
-	list-style: none;
-	background-image: url("/images/tik.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px;
     margin-top: -5%;
+	list-style: none;
 }
 
 li.lille{
-    font-size: 175%;
-    color: #555;
+    font-size: 120%;
+    color: white;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
-	list-style: none;
-	background-image: url("/images/lill.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px;
     margin-top: -5%;
+	list-style: none;
 }
 
 ul.haridus {
