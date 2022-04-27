@@ -8,24 +8,21 @@ img.mina {
 }
 
 img.loc {
-	position: left center;
 	width: 10%;
     margin-right: 5%;
-    margin-left: -15%;
+    margin-left: -35%;
 }
 
 img.phone {
-    position: left center;
 	width: 10%;
     margin-right: 5%;
-    margin-left: -15%;
+    margin-left: -35%;
 }
 
 img.mail {
-    position: left center;
 	width: 10%;
     margin-right: 5%;
-    margin-left: -15%;
+    margin-left: -35%;
 }
 
 img.twilio {
@@ -117,7 +114,7 @@ h4 {
     color: white;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: -10%;
+    margin-top: -5%;
     text-align: center;
 }
 
@@ -132,7 +129,7 @@ h3.tiitel {
 h2.contact {
     font-size: 150%;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 ul.esimene {
@@ -191,8 +188,8 @@ li.tartu2 {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
-    margin-top: -5%;
 	list-style: none;
+    margin-left: -2%;
 }
 
 li.ee{
@@ -228,8 +225,8 @@ li.tik{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
-    margin-top: -5%;
 	list-style: none;
+    margin-left: -2%;
 }
 
 li.lille{
@@ -238,8 +235,8 @@ li.lille{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 	padding: 4% 5% 5% 10%;
-    margin-top: -5%;
 	list-style: none;
+    margin-left: -2%;
 }
 
 ul.haridus {
